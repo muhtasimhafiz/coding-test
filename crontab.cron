@@ -1,0 +1,1 @@
+0 0 1 * * php bin/console app:scrape-systems # Every 1st of the month at 00:00
