@@ -29,3 +29,7 @@ Here are 2 booking systems with examples of beauty and wellness salons in Austin
 1. Build as much as you can in 2-3 hours.
 2. Once you're done, write a succint report on what's left to do and how long it will take.
 3. You're allowed to scrape non-Austin salons.
+
+## Submission
+
+Send your fork of the repo via email. Do **not** make a PR.
