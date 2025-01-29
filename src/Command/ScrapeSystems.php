@@ -25,7 +25,7 @@ class ScrapeSystems extends Command
 
         $scrapers = $this->scraperRepository->findAll();
         foreach ($scrapers as $scraper) {
-            $result = $scraper->scrape();
+            $scraper->scrape();
         }
 
         return Command::SUCCESS;
