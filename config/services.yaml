@@ -20,5 +20,14 @@ services:
             - '../src/Entity/'
             - '../src/Kernel.php'
 
+    App\Repository\ScraperRepositoryInterface:
+        '@App\Repository\ScraperRepository'
+    
+        App\Scraper\Core\:
+        resource: '../src/Scraper/Core/'
+    
+    App\Scraper\GalariaSpa\:
+        resource: '../src/Scraper/GalariaSpa/'
+
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
